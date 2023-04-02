@@ -12,7 +12,9 @@ h1 {
   margin-top: 5rem;
 }
 html {
-  background: rgba(99, 156, 240, 0.75);
+  background: url(https://cdnb.artstation.com/p/assets/images/images/044/817/053/large/jb-last-scene-repair-0048.jpg?1641236211);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 /* BUTTON SECTION */
@@ -20,7 +22,7 @@ html {
   color: white;
 }
 .button-container {
-  background: rgba(99, 156, 240, 0.75);
+  background: rgba(49, 56, 66, 0.75);
   box-shadow: 0 8px 20px 0 rgba(0, 0, 0, 0.993);
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(20px);
