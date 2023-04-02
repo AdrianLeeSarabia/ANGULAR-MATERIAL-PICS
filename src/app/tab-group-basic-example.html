@@ -1,14 +1,29 @@
 <html>
-  <h1>Lee Photography</h1>
+  <!DOCTYPE html>
+  <html>
+    <head>
+      <title>The Art of Pictures</title>
+    </head>
+    <body>
+      <div class="container" id="con">
+        <br /><br /><br />
+        <h1>Welcome to the Art of Photography</h1>
+        <p>
+          This is my personal homepage. Here you will find information about me,
+          my interests, and my work.
+        </p>
+      </div>
+    </body>
+  </html>
 
-  <div class="container">
+  <div class="container" style="margin-top: 50px">
     <mat-tab-group>
       <!-- BUTTON SECTION-->
-      <mat-tab label="Button">
-        <div class="button-container">
+      <mat-tab label="Button" style="background-color: white">
+        <div class="button-container" style="background-color: white">
           <section>
             <div class="example-label">Basic</div>
-            <div class="example-button-row">
+            <div class="example-button-row" style="background-color: white">
               <button mat-button>Basic</button>
               <button mat-button color="primary">Primary</button>
               <button mat-button color="accent">Accent</button>
@@ -212,7 +227,6 @@
             <img
               mat-card-image
               src="https://api.time.com/wp-content/uploads/2019/12/best-photojournalism-2019-13.jpg?quality=85&w=800"
-              alt="Photo of a Shiba Inu"
               style="border-radius: 50px"
             />
             <mat-card-content>
@@ -238,16 +252,40 @@
             </mat-card-header>
             <img
               mat-card-image
-              src="https://material.angular.io/assets/img/examples/shiba2.jpg"
-              alt="Photo of a Shiba Inu"
+              src="https://cdn.cnn.com/cnnnext/dam/assets/171108185237-new-york-city-1993-by-jeff-mermelstein.jpg"
               style="border-radius: 50px"
             />
             <mat-card-content>
               <p>
-                The Shiba Inu is the smallest of the six original and distinct
-                spitz breeds of dog from Japan. A small, agile dog that copes
-                very well with mountainous terrain, the Shiba Inu was originally
-                bred for hunting.
+                Street photography's rich past has been captured in the
+                republished edition of "Bystander: A History of Street
+                Photography." This pictured image, by Jeff Mermelstein, is one
+                of the newest shots in the 310-photo collection, which features
+                examples of the genre that date back to the 1840s.
+              </p>
+            </mat-card-content>
+            <mat-card-actions>
+              <button mat-button>LIKE</button>
+              <button mat-button>SHARE</button>
+            </mat-card-actions>
+          </mat-card>
+        </div>
+        <div class="card-container">
+          <mat-card class="example-card">
+            <mat-card-header>
+              <div mat-card-avatar class="example-header-image"></div>
+              <mat-card-title>Shiba Inu</mat-card-title>
+              <mat-card-subtitle>Dog Breed</mat-card-subtitle>
+            </mat-card-header>
+            <img
+              mat-card-image
+              src="https://www.esplanade.com/-/media/Offstage-Microsite/Explore-The-Arts/Dancing-with-my-fingers-Bernie-Ng/dancing-with-my-fingers-kv-1000x1000.ashx?rev=983c311dab0b4723b66ba5946e1a02cc&hash=CA0695C184823B96B8DF5E8FCA3386BC"
+              style="border-radius: 50px"
+            />
+            <mat-card-content>
+              <p>
+                Dancing with my fingers: Bernie Ng, dance photographer -
+                Esplanade Offstage
               </p>
             </mat-card-content>
             <mat-card-actions>
@@ -356,7 +394,7 @@
               [expanded]="step === 0"
               (opened)="setStep(0)"
               hideToggle
-              style="background-color: rgba(99, 156, 240, 0.75)"
+              style="background: rgba(49, 56, 66, 0.75)"
             >
               <mat-expansion-panel-header>
                 <mat-panel-title style="color: white">
@@ -388,7 +426,7 @@
               [expanded]="step === 1"
               (opened)="setStep(1)"
               hideToggle
-              style="background-color: rgba(99, 156, 240, 0.75)"
+              style="background: rgba(49, 56, 66, 0.75)"
             >
               <mat-expansion-panel-header>
                 <mat-panel-title style="color: white">
@@ -419,7 +457,7 @@
               [expanded]="step === 2"
               (opened)="setStep(2)"
               hideToggle
-              style="background-color: rgba(99, 156, 240, 0.75)"
+              style="background: rgba(49, 56, 66, 0.75)"
             >
               <mat-expansion-panel-header>
                 <mat-panel-title style="color: white">
